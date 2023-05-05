@@ -10,6 +10,38 @@
 
 
 
+## [0.45.0](https://www.github.com/maschad/js-libp2p/compare/v0.44.0...v0.45.0) (2023-05-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove peer refresh (#1731)
+* browsers will no longer try to dial private addresses by default
+* bump it-stream-types from 1.0.5 to 2.0.1 (#1674)
+
+### Features
+
+* add event bus ([#1693](https://www.github.com/maschad/js-libp2p/issues/1693)) ([17eb162](https://www.github.com/maschad/js-libp2p/commit/17eb162a833a752bcf18b12244d9f68e95bc2e5d))
+* add support for arbitrary service modules ([#1563](https://www.github.com/maschad/js-libp2p/issues/1563)) ([53b1645](https://www.github.com/maschad/js-libp2p/commit/53b1645cf505986ccdfe33d83354d1e95f1978de))
+
+
+### Bug Fixes
+
+* clear signal to avoid memory leaks ([#1728](https://www.github.com/maschad/js-libp2p/issues/1728)) ([5c643c3](https://www.github.com/maschad/js-libp2p/commit/5c643c3d8dfe346c64e3e966f4b16f7b226f7c2a))
+* do not auto-dial connected peers ([#1730](https://www.github.com/maschad/js-libp2p/issues/1730)) ([94df577](https://www.github.com/maschad/js-libp2p/commit/94df5778a977e9bb7d6cb7c1fdaf6b25690c254f))
+* do not dial private addresses in browsers ([#1735](https://www.github.com/maschad/js-libp2p/issues/1735)) ([e3deaa4](https://www.github.com/maschad/js-libp2p/commit/e3deaa40584b2d0cd084f95f953bd19db2493f19))
+* listen on circuit relay addresses that contain unsupported segments ([#1732](https://www.github.com/maschad/js-libp2p/issues/1732)) ([947639f](https://www.github.com/maschad/js-libp2p/commit/947639f58e581fb1939b5525cf704d5ee610cc76))
+* Refactor `Upgrader` connection gating ([#1622](https://www.github.com/maschad/js-libp2p/issues/1622)) ([ba47c95](https://www.github.com/maschad/js-libp2p/commit/ba47c957956e52a35d342527561e3117dd46bdd3))
+* remove autodial log line ([#1692](https://www.github.com/maschad/js-libp2p/issues/1692)) ([102d4c2](https://www.github.com/maschad/js-libp2p/commit/102d4c209bd7a33641e352dbd250da7ba74b6f36))
+* remove closed listeners from transport manager ([#1733](https://www.github.com/maschad/js-libp2p/issues/1733)) ([c6367e0](https://www.github.com/maschad/js-libp2p/commit/c6367e0bbb076c9c4470d15301754c80176c24b0))
+* remove peer refresh ([#1731](https://www.github.com/maschad/js-libp2p/issues/1731)) ([0d46c78](https://www.github.com/maschad/js-libp2p/commit/0d46c78fe7ca9851aada8d5e1c7af549bca7fbdb))
+* update autonat and upnp-nat services to match fetch etc ([#1729](https://www.github.com/maschad/js-libp2p/issues/1729)) ([2c3b64a](https://www.github.com/maschad/js-libp2p/commit/2c3b64ad3833ea1097ea2b0008aa7292aa9e4998))
+
+
+### deps
+
+* bump it-stream-types from 1.0.5 to 2.0.1 ([#1674](https://www.github.com/maschad/js-libp2p/issues/1674)) ([6f01811](https://www.github.com/maschad/js-libp2p/commit/6f0181189bc0508fcf51c4b382ff4cd24f5bb7b0))
+
 ## [0.44.0](https://www.github.com/libp2p/js-libp2p/compare/v0.43.4...v0.44.0) (2023-04-14)
 
 
