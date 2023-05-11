@@ -10,6 +10,14 @@
 
 
 
+### [0.45.1](https://www.github.com/maschad/js-libp2p/compare/v0.45.0...v0.45.1) (2023-05-11)
+
+
+### Bug Fixes
+
+* do not require connection encrypters ([#1752](https://www.github.com/maschad/js-libp2p/issues/1752)) ([2417cda](https://www.github.com/maschad/js-libp2p/commit/2417cda57b2d2a2888a7c79066c597243c598032))
+* retain peer metadata after identify ([#1749](https://www.github.com/maschad/js-libp2p/issues/1749)) ([752db6d](https://www.github.com/maschad/js-libp2p/commit/752db6d6d4196de89d6efeba52404ad308926aec))
+
 ## [0.45.0](https://www.github.com/libp2p/js-libp2p/compare/v0.44.0...v0.45.0) (2023-05-09)
 
 
